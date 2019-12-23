@@ -10,6 +10,7 @@
       checked: false,
       id: Date.now()
     };
+
     itemStore.addItem(todo);
     value = "";
   }
