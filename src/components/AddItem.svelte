@@ -1,5 +1,5 @@
 <script>
-  import { itemStore } from "./store";
+  import { itemStore } from "../store";
   let value = "";
   function addTodo() {
     value = value.trim();

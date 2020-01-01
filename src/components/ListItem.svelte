@@ -1,6 +1,6 @@
 <script>
   import { itemStore } from "../store";
-  export const todo; // props syntax
+  export let todo; // props syntax
 
   const deleteTodo = () => {
     itemStore.removeItem(todo);
